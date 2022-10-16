@@ -1,0 +1,85 @@
+
+.main {
+    background-color: #f6f6f6;
+}
+
+.main>img {
+    height: 260px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.menu {
+    position: relative;
+    top: -38px;
+    padding: 20px 14px 20px 14px;
+    border-radius: 40px 40px 0 0;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title>h1 {
+    margin: 15px 0 15px 0;
+}
+
+.fa.fa-heart-o.fa-xl {
+    font-weight: 100;
+}
+
+.plats {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.plats>h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.plats>ul>li {
+    margin: 14px 0 14px 0;
+    padding: 15px 20px 15px 10px;
+    height: 68px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.plats>ul>li>a, .plats>ul>li>a>article {
+    height: 68px;
+    width: 100%;
+}
+
+.plats>ul>li>a>article>div>h3 {
+    margin: 0;
+}
+
+.plats>ul>li>a>article>div>div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.plats>ul>li>a>article>div>div>p {
+    margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 27px;
+}
+
+
+.fa.fa-check-circle {
+    display: none;
+}
